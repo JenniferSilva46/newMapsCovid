@@ -1,0 +1,21 @@
+.logomenu{
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+}
+.logomenu img{
+    height: 65px;
+    margin-left: 30px;
+}
+.header-menu{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+@media (max-width:900px){
+ 
+    .logomenu img{
+       height: 55px;
+    }
+}
